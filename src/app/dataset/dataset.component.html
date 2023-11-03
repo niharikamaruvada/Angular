@@ -1,0 +1,16 @@
+<p>dataset works!</p>
+
+<h1>Holidays in Austria (2023)</h1>
+
+<ul>
+    <li *ngFor="let data of dataset">
+        <p>Date: {{data.date}}</p>
+        <p>localName: {{data.localName}}</p>
+        <p>name: {{data.name}}</p>
+        <p>countryCode: {{data.countryCode}}</p>
+        <p>fixed: {{data.fixed}}</p>
+        <p>global: {{data.global}}</p>
+        <p>counties: {{data.counties}}</p>
+        <p>launchYear: {{data.launchYear}}</p>
+    </li>
+</ul>
